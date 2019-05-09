@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+        link(rel="stylesheet", href="style.css")
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js'>
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js"></script>
+    body
+        #app
+            .container
+                .header
+                    h1 兩光文具店
+                .navbar
+                    ul
+                        li 最新資訊
+                        li 商品列表
+                        li 關於我們
+                .contents
+                    .tools(v-for="(single_pen,id) in pen")
+                        .img
+                            img(:src="single_pen.img")
+                        .infos
+                            h3 {{single_pen.name}}
+                            h4 網路價: {{single_pen.price}}
+                            .purchase(@click="get_item(id)") 購買
+                hr
+
+                #buylist
+                    h1 MyBuylist 購物清單
+                    hr
+                    .items-list(v-if="shop_list.length!=0" v-for="(item,index) in shop_list")
+                        .item  {{index+1}}: {{item.name}}
+                        .price {{item.price}}
+                        .del(@click="del_item(index)") X
+                    hr
+                    .total
+                        h3 價格 : {{total_price}}
+        script(src="script.js")
