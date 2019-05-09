@@ -1,7 +1,7 @@
 let datas = [
   {
     name: "百樂0.5按鍵式魔擦筆 ( 深藍 ) --限量訂購",
-    img: "/Practice/picture/001.jpg",
+    img: "/Practice/001.jpg",
     price: 72,
     des: [
       "筆尾輕輕擦拭 錯字不留痕跡",
@@ -12,7 +12,7 @@ let datas = [
   },
   {
     name: "三菱【Uni】國民溜溜筆+溜溜筆芯組--3色(附筆芯x1)",
-    img: "/Practice/picture/002.jpg",
+    img: "/Practice/002.jpg",
     price: 61,
     des: [
       "★超滑溜的書寫感受!!",
@@ -23,7 +23,7 @@ let datas = [
   },
   {
     name: "百樂3色變芯筆筆管+ 基本色筆芯組",
-    img: "/Practice/picture/003.jpg",
+    img: "/Practice/003.jpg",
     price: 126,
     des: [
       "好好變芯、心情好好",
@@ -36,13 +36,13 @@ let datas = [
   },
   {
     name: "OB 1005 自動原子筆 一盒50支入",
-    img: "/Practice/picture/004.jpg",
+    img: "/Practice/004.jpg",
     price: 390,
     des: ["0.3mm", "紅、藍三色", "一盒：50入"]
   },
   {
     name: "OP自動原子筆100/藍/0.7mm/12支/打",
-    img: "/Practice/picture/005.jpg",
+    img: "/Practice/005.jpg",
     price: 100,
     des: [
       "寫字精細滑溜",
@@ -54,7 +54,7 @@ let datas = [
   },
   {
     name: "白金牌PLATINUM原子筆B-7/藍/0.7mm/12支/打",
-    img: "/Practice/picture/006.jpg",
+    img: "/Practice/006.jpg",
     price: 69,
     des: [
       "白金牌-使書寫成為一種享受「讓人們享有優質的書寫體驗」是白金牌的最高企業宗旨，更是永續發展與經營的基石！上班族、學生族群的最愛．書寫的好工具超經濟實惠流利好書寫筆幅:0.7mm"
@@ -62,7 +62,7 @@ let datas = [
   },
   {
     name: "OB自動原子筆1006/黑/0.3mm/12支/打",
-    img: "/Practice/picture/007.jpg",
+    img: "/Practice/007.jpg",
     price: 102,
     des: [
       "不漏水、不刮紙寫字精細滑溜書寫流利、筆珠耐磨不積墨 經濟實惠 按鍵式一按，即可書寫，不用擔心筆蓋不見的困擾商品規格: 筆幅:0.3mm"
@@ -70,7 +70,7 @@ let datas = [
   },
   {
     name: "百樂PILOT舒寫原子筆BPS-GP-EF-L/藍/0.5mm/6支/組",
-    img: "/Practice/picture/008.jpg",
+    img: "/Practice/008.jpg",
     price: 149,
     des: [
       "PILOT將專業文具產品引進台灣滿足文具使用者最高品質的期待!清晰易乾、不易暈開三角柔軟筆握久寫不累書寫流利、滑順透明筆身、墨水剩餘量可見商品說明0.5mm球珠徑筆頭材質：不鏽鋼 尺寸：全長154mm 替芯：RFJ-GP 墨水：油性墨水"
@@ -78,7 +78,7 @@ let datas = [
   },
   {
     name: "ZEBRA BP075 迷你伸縮桿原子筆 日本限定色",
-    img: "/Practice/picture/009.jpg",
+    img: "/Practice/009.jpg",
     price: 199,
     des: [
       "日本限定色新上市筆尖",
@@ -89,7 +89,7 @@ let datas = [
   },
   {
     name: "ZEBRA 斑馬 B4SA2、B4SA3 四色五合一多功能原子筆",
-    img: "/Practice/picture/010.jpg",
+    img: "/Practice/010.jpg",
     price: 344,
     des: [
       "機能滿載 原子筆+自動鉛筆彈性筆夾‧橡膠握把‧一筆4色多功能 金屬塗裝筆桿、手感沉穩每支附贈精美禮盒"

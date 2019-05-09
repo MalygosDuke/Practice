@@ -4,8 +4,7 @@
   position: relative;
 }
 
-body,
-html {
+body, html {
   background-color: rgba(128, 128, 128, 0.1);
 }
 
@@ -22,17 +21,17 @@ li {
 .container .header {
   width: 1024px;
   height: 300px;
-  background: url("/Practice/picture/background.jpg");
+  background: url("background.jpg");
   background-size: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container .navbar ul {
@@ -41,11 +40,11 @@ li {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin: 0;
   padding: 5px;
   background-color: rgba(0, 0, 255, 0.1);
@@ -53,7 +52,7 @@ li {
 
 .container .navbar ul li {
   -ms-flex-preferred-size: 100px;
-  flex-basis: 100px;
+      flex-basis: 100px;
   padding: 5px;
   text-align: center;
   cursor: pointer;
@@ -69,15 +68,15 @@ li {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-preferred-size: 50px;
-  flex-basis: 50px;
+      flex-basis: 50px;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   left: 65px;
 }
 
@@ -140,13 +139,11 @@ li {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-.container #buylist .items-list .item,
-.container #buylist .items-list .price,
-.container #buylist .items-list .del {
+.container #buylist .items-list .item, .container #buylist .items-list .price, .container #buylist .items-list .del {
   padding: 7px;
   margin: 5px;
 }
