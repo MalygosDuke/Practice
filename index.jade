@@ -20,7 +20,7 @@ html(lang="en")
                         li 商品列表
                         li 關於我們
                         .search
-                            input(type="text" v-model.trim="input_title")
+                            input(type="text" v-model.trim="input_title" placeholder="搜尋")
                 .contents
                     .tools(v-for="(single_pen,id) in itemtpye")
                         .img
