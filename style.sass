@@ -22,8 +22,6 @@ li
     margin-left: auto
     margin-right: auto
     .header
-        //width: 1024px
-        //height: 300px
         +size(1024px,300px)
         background: url("background.jpg")
         background-size: auto
@@ -38,11 +36,14 @@ li
             margin: 0
             padding: 5px
             background-color: rgba(blue,0.1)
-            li
+            li,.search
                 flex-basis: 100px
                 padding: 5px
                 text-align: center
                 cursor: pointer
+                input
+                    padding: 2px
+            li
                 &:hover
                     background-color: rgba(grey,0.4)
     .contents

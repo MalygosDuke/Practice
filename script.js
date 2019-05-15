@@ -98,12 +98,14 @@ let datas = [
 ];
 
 let shop_list = [];
+let input_title = "";
 
 var vm = new Vue({
   el: "#app",
   data: {
     pen: datas,
-    shop_list: shop_list
+    shop_list: shop_list,
+    input_title: input_title
   },
   methods: {
     get_item: function(index) {
@@ -111,7 +113,7 @@ var vm = new Vue({
         name: this.pen[index].name,
         price: this.pen[index].price
       });
-      console.log(shop_list);
+      //console.log(shop_list);
     },
 
     del_item: function(index) {
@@ -125,6 +127,15 @@ var vm = new Vue({
         total_price += this.shop_list[i].price;
       }
       return total_price;
+    },
+    itemtpye() {
+      if (this.input_title != "") {
+        return this.pen.filter(item => {
+          let content = item.name.toLowerCase();
+          let keyword = this.input_title.toLowerCase();
+          return content.indexOf(keyword) != -1;
+        });
+      } else return this.pen;
     }
   }
 });

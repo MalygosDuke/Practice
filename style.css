@@ -50,12 +50,16 @@ li {
   background-color: rgba(0, 0, 255, 0.1);
 }
 
-.container .navbar ul li {
+.container .navbar ul li, .container .navbar ul .search {
   -ms-flex-preferred-size: 100px;
       flex-basis: 100px;
   padding: 5px;
   text-align: center;
   cursor: pointer;
+}
+
+.container .navbar ul li input, .container .navbar ul .search input {
+  padding: 2px;
 }
 
 .container .navbar ul li:hover {
